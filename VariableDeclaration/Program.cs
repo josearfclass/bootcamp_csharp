@@ -6,11 +6,11 @@ namespace VariableDeclaration
     {
         static void Main(string[] args)
         {
-            short var1 = -100;
-            short var2 = -128;
+            sbyte var1 = -100;
+            sbyte var2 = -128;
             short var3 = 3540;
-            uint var4 = 64876;
-            long var5 = 2147483648;
+            ushort var4 = 64876;
+            uint var5 = 2147483648;
             int var6 = -1141583228;
             long var7 = -123372036854770;
             int var8 = 2_000_000;
