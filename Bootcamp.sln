@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariableDeclaration", "VariableDeclaration\VariableDeclaration.csproj", "{C8A006E0-A707-48BE-B881-5AF6F41A416F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullExercise", "NullExercise\NullExercise.csproj", "{207D9B91-898D-45FE-9067-96A2224435AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullExercise", "NullExercise\NullExercise.csproj", "{207D9B91-898D-45FE-9067-96A2224435AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuiltInTypes", "BuiltInTypes\BuiltInTypes.csproj", "{2981EE61-A182-4005-8E60-985C2CA64BD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{207D9B91-898D-45FE-9067-96A2224435AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207D9B91-898D-45FE-9067-96A2224435AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207D9B91-898D-45FE-9067-96A2224435AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2981EE61-A182-4005-8E60-985C2CA64BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2981EE61-A182-4005-8E60-985C2CA64BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2981EE61-A182-4005-8E60-985C2CA64BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2981EE61-A182-4005-8E60-985C2CA64BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
