@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuiltInTypes", "BuiltInType
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericExercise", "GenericExercise\GenericExercise.csproj", "{1A813A36-C9EF-4BC1-9881-0AB2C8003A16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericContrains2", "GenericContrains2\GenericContrains2.csproj", "{04963B26-1914-466A-9DDF-768375019D43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericContrains2", "GenericContrains2\GenericContrains2.csproj", "{04963B26-1914-466A-9DDF-768375019D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousExercise", "AnonymousExercise\AnonymousExercise.csproj", "{DA8D8314-676C-4C29-89C5-09168530ADF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{04963B26-1914-466A-9DDF-768375019D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04963B26-1914-466A-9DDF-768375019D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04963B26-1914-466A-9DDF-768375019D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8D8314-676C-4C29-89C5-09168530ADF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8D8314-676C-4C29-89C5-09168530ADF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8D8314-676C-4C29-89C5-09168530ADF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8D8314-676C-4C29-89C5-09168530ADF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
