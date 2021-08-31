@@ -14,17 +14,17 @@ namespace FactoryMethod
 
             if (string.Equals(xmlType, "OrderXML", StringComparison.OrdinalIgnoreCase))
             {
-                return new OrderXMLDisplayService();
+                displayService = new OrderXMLDisplayService();
             }
             
             if (string.Equals(xmlType, "ResponseXML", StringComparison.OrdinalIgnoreCase))
             {
-                return new ResponseXMLDisplayService();
+                displayService = new ResponseXMLDisplayService();
             }
             
             if (string.Equals(xmlType, "FeedBackXml", StringComparison.OrdinalIgnoreCase))
             {
-                return new FeedbackXMLDisplayService();
+                displayService = new FeedbackXMLDisplayService();
             }
 
             return displayService;
