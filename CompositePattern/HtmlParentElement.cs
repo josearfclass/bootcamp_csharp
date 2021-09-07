@@ -37,7 +37,7 @@ namespace CompositePattern
             childrenTag.Remove(htmlTag);
         }
         
-        public override List<HtmlTag>GetChildren(){
+        public override List<HtmlTag> GetChildren(){
             return childrenTag;
         }
         
