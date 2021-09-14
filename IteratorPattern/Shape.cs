@@ -10,5 +10,10 @@ namespace IteratorPattern
             this.Id = id;
             this.Name = name;
         }
+
+        public override string ToString()
+        {
+            return "ID: "+this.Id+" Shape: "+this.Name;
+        }
     }
 }

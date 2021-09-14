@@ -1,3 +1,5 @@
+using System;
+
 namespace IteratorPattern
 {
     public class ShapeIterator : Iterator<Shape>
@@ -12,7 +14,7 @@ namespace IteratorPattern
 
         public bool HasNext()
         {
-            return (position + 1) < this.shapes.Length;
+            return (position) < this.shapes.Length;
         }
         
         public Shape Next()
@@ -24,8 +26,24 @@ namespace IteratorPattern
         
         public void Remove()
         {
-            shapes[position] = new Shape(0, "");
-            position--;
+            if (this.shapes[this.position-1] != null)
+            {
+                this.shapes[this.position - 1] = null;
+            }
+            
+            Shape[] shapes_tmp = new Shape[this.shapes.Length - 1];
+            int index = 0;
+            for (int i = 0; i < shapes_tmp.Length; i++)
+            {
+                if (this.shapes[i] != null)
+                {
+                    shapes_tmp[index] = this.shapes[i];
+                    index++;
+                }
+            }
+
+            this.shapes = shapes_tmp;
+            this.position--;
         }
     }
 }
