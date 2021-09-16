@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainResponsability", "Chai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{A85BCD3E-E256-402E-AE12-AD1A1DA87E7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestRabbitMQ", "RequestRabbitMQ\RequestRabbitMQ.csproj", "{22E9B8C8-D9E3-4B45-BB70-569483CE399F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQConsumer", "RabbitMQConsumer\RabbitMQConsumer.csproj", "{AD7493E6-6F92-4E48-AC7F-D1E998A99DF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{A85BCD3E-E256-402E-AE12-AD1A1DA87E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85BCD3E-E256-402E-AE12-AD1A1DA87E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85BCD3E-E256-402E-AE12-AD1A1DA87E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E9B8C8-D9E3-4B45-BB70-569483CE399F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E9B8C8-D9E3-4B45-BB70-569483CE399F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E9B8C8-D9E3-4B45-BB70-569483CE399F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E9B8C8-D9E3-4B45-BB70-569483CE399F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7493E6-6F92-4E48-AC7F-D1E998A99DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7493E6-6F92-4E48-AC7F-D1E998A99DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7493E6-6F92-4E48-AC7F-D1E998A99DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7493E6-6F92-4E48-AC7F-D1E998A99DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
